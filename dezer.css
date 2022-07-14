@@ -10,6 +10,7 @@ header {
 	align-items: center;
 	padding: 20px 80px;
 	border-bottom: solid 2px #f9f9f9;
+	width: 100%;
   }
   
   header img {
@@ -19,6 +20,8 @@ header {
   header nav {
 	display: flex;
 	gap: 20px;
+	width: 100%;
+
   }
   nav a{
 	text-decoration: none;
@@ -39,7 +42,7 @@ header {
   }
   
   .artipremier{
-	width: 80%;
+	width: 100%;
 	margin: 0 auto;
   }
   
@@ -165,25 +168,6 @@ header {
 
 
 
-
-
-
-
-
-
-
-
-
-/* header{
-    border-bottom: 50px;
-    margin-left: 20px;
-    margin-top: 10px;
-    padding-top: 5px;
-    width: auto;
-    border:black;
-	
-    
-} */
 hr{
     size: 10px;
 	margin-top: 1px;
@@ -207,15 +191,15 @@ nav{
 section.premier{
     display: flex;
     justify-content: center;
-   width: auto;
+   width: 100%;
    padding-top: 20px;
-   margin-right:  300px;
+   /* margin-right:  300px; */
    background-image:url("/img/hero.png");
    background-size: 50% ;
    background-repeat: no-repeat;
- 
+/*  
    background-position-y:0%;
-   background-position-x:100%;
+   background-position-x:100%; */
 }
 .hero{
     width: 500px;
@@ -236,19 +220,19 @@ section.premier{
 
 section.toujour{
     display: flex;
-    
+    width: 100%;
     margin-top: 30px;
     gap: 45px;
 }
 footer{
     background-color: black;
     color:  white;
-    width: auto;
+    width: 100%;
 		justify-content: center;
 		padding-top: 100px;
 		padding-bottom: 100px;
-		padding-left: 100px;
-		padding-right: 100px;
+			/* padding-left: 100px;
+			padding-right: 100px; */
 		
 }
 
@@ -258,6 +242,7 @@ footer{
 	 display: flex;
 	 gap: 100px;
 	 justify-content: center;
+	 width: 100%;
 
 }
 .toujour{
@@ -265,9 +250,9 @@ footer{
     display: flex;
     justify-content:center;
     gap: 80px;
-		width: auto;
-		margin-left: 80px;
-		margin-right: 80px;
+		width: 100%;
+		/* margin-left: 80px; */
+		/* margin-right: 80px; */
 		color: white;
 }
  .troisI{
@@ -318,12 +303,12 @@ article.icone{
 
 .deuxieme{
     
-    justify-content:left;
+    /* justify-content:left;	 */
     gap: 30px;
     display: flex;
-    align-items: center;
-    margin-left: 200px;
-    margin-right: 50px;
+    /* align-items: center; */
+    /* margin-left: 200px; */
+    /* margin-right: 50px; */
 }
 .quoi{
     display: flex;
@@ -434,8 +419,8 @@ section.pourcen{
     margin-bottom: 6px;
     margin-top: 30px;
     display: flex;
-		margin-left: 150px;
-		margin-right: 100px;
+		/* margin-left: 150px; */
+		/* margin-right: 100px; */
 		padding-top: 10px;
 		padding-bottom: 10px;
 		font-weight: bold;
@@ -447,8 +432,8 @@ section.pourcen{
 section.hifi{
     background-color: rgba(104, 99, 99, 0.192);
     margin-bottom: 6px;
-		margin-left: 150px;
-		margin-right: 100px;
+		/* margin-left: 150px; */
+		/* margin-right: 100px; */
 		padding-top: 10px;
 		padding-bottom: 10px;
 		justify-content: center;
@@ -456,8 +441,8 @@ section.hifi{
 }
 section.etudiant{
     background-color: rgba(104, 99, 99, 0.192);
-		margin-left: 150px;
-		margin-right: 100px;
+		/* margin-left: 150px;	 */
+		/* margin-right: 100px; */
 		padding-top: 10px;
 		padding-bottom: 10px;
 		justify-content: center;
@@ -501,7 +486,7 @@ button.abonne{
 
     border-radius: 10px;
 	gap: 300px;
-	margin-right: 200px;
+	/* margin-right: 200px; */
 }
 .savoir{
     border-radius: 10px;	
@@ -622,134 +607,6 @@ justify-content: center;
 
    }
 
-@media screen and (max-width: 768px) 
-{
-	section.premier{
-		display: block;
-		justify-content: center;
-	   width: auto;
-	   padding-top: 20px;
-	   margin-right:  300px;
-	}
-  }
-
-@media screen and (max-width: 768px)
-{
-	.hero{
-		width: 800px;
-		padding-top: 0px;
-	}
-}
-@media screen and (max-width: 768px)
-{
-	
-	.phone{
-		display:none
-		
-	
-	}
-}
-
-
-@media screen and (max-width: 768px)
-{
-	.deuxieme{
-    
-		justify-content:left;
-		gap: 30px;
-		display: flex;
-		align-items:left;
-		margin-left: 200px;
-		margin-right: 50px;
-	}
-	
-}
-@media screen and (max-width: 768px)
-{
-	section.toujour{
-		width: 550px;
-		flex-direction: column-reverse;
-		align-items: center;
-		  
-	  } 
-	
-}
-@media screen and (max-width: 768px)
-{
-	section.profit{
-		display: flex;
-		flex-direction:column;
-		justify-content: center;
-		width: 700px;
-		padding-right: 0px;
-		text-align: center;
-		
-	}
-	
-}
-
-@media screen and (max-width: 768px)
-{
-	section.text{
-		display: flex;
-		justify-content: center;
-		margin-right: 0px;
-	}
-	 
-}
-@media screen and (max-width: 768px)
-{
-	section.profit1{
-		display: flex;
-		
-	}
-
-	}
-  @media screen and (max-width: 768px)
-{
-	nav{
-		 display: none;
-		
-	}
-
-	}
-  
-
-@media screen and (max-width: 768px)
-{
-  .rouge {
-  margin-top: 80px;
-  margin-left: 90px;
-  padding-top: 10px;
-  padding-left: 60px;
-  padding-right: 60px;
-  display: block;
-  }
-   
-}
-
-@media screen and (max-width: 768px)
-{
-  .blanc{
-    margin-top: 10px;
-    margin-left: 100px;
-    padding-top: 10px;
-    padding-left: 60px;
-    padding-right: 60px;
-    display: block;
-   
-}
-   
-}
-@media screen and (max-width: 768px)
-{
-  .premier{
-    margin-left: 120px ;
-    margin-bottom: 20px;
-   
-}
-   
-}
 .faceboo{
 	width: 30px;
 	 
@@ -764,32 +621,161 @@ justify-content: center;
 }
 .reseau{
 	display: flex;
+	width: 100%;
 	
 
 }
 .burger{
 	display: none;
 }
-@media screen and (max-width: 768px)
+
+@media (max-width:768px)
 {
 	
 	.burger{
 		display: block;
 		width: 30px;
-		margin-left: 640px;
+		/* margin-left: 640px; */
 
 	}
-
+	.image{
+		justify-content: center;
+		display: flex;
+		width: 80px;
+		
 	}
-	@media screen and (max-width: 768px)
-	{
-		.image{
-			justify-content: center;
-			display: flex;
-			width: 80px;
-			
-		}
-		}
+	section.premier{
+		display: block;
+		justify-content: center;
+	   width: 100%;
+	   padding-top: 20px;
+	   /* margin-right:  300px; */
+	}
+	.hero{
+		width: 800px;
+		padding-top: 0px;
+	}
+	.phone{
+		display:none
+		
 	
+	}
+	.deuxieme{
+    
+		/* justify-content:left; */
+		gap: 30px;
+		display: flex;
+		align-items:left;
+		/* margin-left: 200px;
+		margin-right: 50px; */
+	}
+	section.toujour{
+		width: 100%;
+		flex-direction: column-reverse;
+		align-items: center;
+		  
+	  } 
+	  section.profit{
+		display: flex;
+		flex-direction:column;
+		justify-content: center;
+		width: 100%;
+		padding-right: 0px;
+		text-align: center;
+		
+	}
+	section.text{
+		display: flex;
+		justify-content: center;
+		margin-right: 0px;
+		width: 100%;
+	}
+	section.profit1{
+		display: flex;
+		width: 100%;
 
-  
+		
+	}
+	header{
+		display: none;
+	   
+   }
+   .rouge {
+	margin-top: 80px;
+	/* margin-left: 90px; */
+	padding-top: 10px;
+	padding-left: 60px;
+	padding-right: 60px;
+	display: block;
+	}
+	.blanc{
+		margin-top: 10px;
+		/* margin-left: 100px; */
+		padding-top: 10px;
+		padding-left: 60px;
+		padding-right: 60px;
+		display: block;
+	   
+	}
+	.premier{
+		margin-left: 120px ;
+		margin-bottom: 20px;
+	   
+	}
+	}
+	.haut{
+		width: 100%;
+	}
+
+
+
+	header {
+		display: flex;
+		/* justify-content: space-between; */
+		/* align-items: center; */
+		/* padding: 20px 80px; */
+		border-bottom: solid 2px #f9f9f9;
+		gap: 40px;
+
+	  }
+	  
+	  header img {
+		width: 150px;
+	  }
+	  
+	  header nav {
+		display: flex;
+		gap: 20px;
+	  }
+	  
+	  .burger {
+		display: none;
+	  }
+	  
+	  /* Covers */
+	  .covers {
+		padding: 60px 0px;
+		background-image: url("./image/hero.png");
+		background-repeat: no-repeat;
+		background-size: 40%;
+		background-position-x: 90%;
+		background-position-y: 0%;
+	  }
+	  
+	  .covers article {
+		width: 80%;
+		margin: 0 auto;
+	  }
+	  
+	  /* Offers */
+	  .offers {
+		text-align: center;
+		padding: 60px 0px;
+	  }
+	  
+	  .offers-container {
+		display: flex;
+		justify-content: center;
+		gap: 5px;
+		margin-top: 50px;
+	  }
